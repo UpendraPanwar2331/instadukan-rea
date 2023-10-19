@@ -5,8 +5,9 @@ import './App.css';
 import 'antd/dist/reset.css';
 import Homepage from './Component/Homepage';
 import Cart from './Component/Cart';
-import React, { createContext, useState } from 'react';
+import React, {  useState } from 'react';
 import Header from './Component/Header';
+import Footer from './Component/Footer';
 export const Mycontext = React.createContext();
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <Route path='/' element={<Homepage/>} />
       <Route path='/Cart' element={<Cart/>} />
       </Routes>
+      <Footer/>
       </BrowserRouter>
       </Mycontext.Provider>
   

@@ -1,10 +1,10 @@
 import React, { useState, useContext } from 'react';
 import { Button, Card } from 'antd';
-import { Link } from 'react-router-dom';
+
 import { products } from '../Data/Data';
 import '../Styles/Homepage.css';
 import { Mycontext } from '../App';
-import { ShoppingOutlined } from '@ant-design/icons';
+
 import Meta from 'antd/es/card/Meta';
 
 const Homepage = () => {
