@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .containermain {
+    position: fixed;
+    z-index: 9999;
+    background-color: rgb(21, 19, 19);
+  }
+  
+ 
+  .header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    position: relative;
+    align-items: center;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 15vw;
+    height: 50px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  
+  
+  .right-side {
+    display: flex;
+    gap: 28vw;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profilepart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .cartpart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .counter {
+    position: absolute;
+    background: pink;
+    width: 16px;
+    border-radius: 50%;
+    text-align: center;
+    top: -12px;
+    right: -8px;
+  }
+  .cart{
+    color: white;
+  }
+  
+ 
+  
+
+  
+ 
+  
+  
+  
+  @media (max-width: 600px) {
+    
+  
+   
+    .header {
+      height: 60px;
+      align-items: center;
+    }
+    .logo {
+      width: 23vw;
+      height: 40px;
+    }
+   
+    .profilepart {
+      position: relative;
+      font-size: 10px;
+    }
+    .counter {
+      position: absolute;
+      width: 15px;
+      font-size: 12px;
+      background: pink;
+      border-radius: 50%;
+      text-align: center;
+      top: -7px;
+      right: -9px;
+    }
+  }
+  
